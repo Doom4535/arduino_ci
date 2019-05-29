@@ -24,7 +24,7 @@ platforms:
         - __AVR_ATmega168__
       warnings:
       flags:
-  nano_v3: &nano_p
+  nano_v3: &nano_3
     board: arduino:avr:nano
     package: arduino:avr
     gcc:
@@ -33,7 +33,7 @@ platforms:
         - __AVR_ATmega328__
       warnings:
       flags:
-  nano: *nano_p
+  nano: *nano_3
   uno:
     board: arduino:avr:uno
     package: arduino:avr
@@ -57,7 +57,8 @@ platforms:
         #- __AVR_ATmega2560__
         #- __AVR_ATmega328__
         # Using the board name per: https://github.com/ianfixes/arduino_ci/issues/89#issuecomment-458138201
-        - __ATSAM3X8E__
+        #- __ATSAM3X8E__
+        - ATSAM3X8E
         - ARDUINO_SAM_DUE
       warnings:
       flags:

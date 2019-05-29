@@ -17,7 +17,9 @@ matrix:
     - os: osx
       env: BADGE=linux
 
-before_install: gem install bundler -v 1.15.4
+before_install:
+- gem install bundler -v 1.15
+- bundler _1.15_ install
 script:
    - g++ -v
    - bundle install

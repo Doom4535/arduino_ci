@@ -22,7 +22,7 @@ matrix:
 #- bundler _1.15_ install
 script:
    - g++ -v
-   - bundle install bundled -v 1.15
+   - bundle install bundler -v 1.15
    - bundler _1.15_ install
    - bundle install
    - bundle exec rubocop --version

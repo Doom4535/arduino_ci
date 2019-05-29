@@ -59,7 +59,7 @@ platforms:
         # Using the board name per: https://github.com/ianfixes/arduino_ci/issues/89#issuecomment-458138201
         #- __ATSAM3X8E__
         #- ATSAM3X8E
-        #- ARDUINO_SAM_DUE
+        - ARDUINO_SAM_DUE
       warnings:
       flags:
   zero:
@@ -136,6 +136,7 @@ platforms:
       features:
       defines:
         - __AVR_ATmega1280__
+        - ARDUINO_AVR_MEGA1280
       warnings:
       flags:
   mega2560:
@@ -145,6 +146,7 @@ platforms:
       features:
       defines:
         - __AVR_ATmega2560__
+        - ARDUINO_AVR_MEGA2560
       warnings:
       flags:
   cplayClassic:

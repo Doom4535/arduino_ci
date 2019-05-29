@@ -57,6 +57,7 @@ platforms:
         #- __AVR_ATmega2560__
         #- __AVR_ATmega328__
         # Using the board name per: https://github.com/ianfixes/arduino_ci/issues/89#issuecomment-458138201
+        - __ATSAM3X8E__
         - ARDUINO_SAM_DUE
       warnings:
       flags:

@@ -54,8 +54,8 @@ platforms:
         # The next closest part would be the AVR_ATmega2560 as both boards
         # use the mega form factor
         #- __ATSAM3X8E__
-        #- __AVR_ATmega2560__
-        - __AVR_ATmega328__
+        - __AVR_ATmega2560__
+        #- __AVR_ATmega328__
       warnings:
       flags:
   zero:

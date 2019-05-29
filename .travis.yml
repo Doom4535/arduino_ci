@@ -19,7 +19,7 @@ matrix:
 
 before_install:
   - gem install bundler -v 1.15.4
-  - bundle _1.15_ install
+  - bundler _1.15_ install
 script:
    - g++ -v
    #- gem install bundle -v 1.15.4

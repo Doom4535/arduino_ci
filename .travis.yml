@@ -18,12 +18,12 @@ matrix:
       env: BADGE=linux
 
 #before_install:
-#- gem install bundler -v 1.15
-#- bundler _1.15_ install
+- gem install bundler -v 1.15.4
+- bundle _1.15_ install
 script:
    - g++ -v
-   - gem install bundler -v 1.15
-   - bundler _1.15_ install
+   #- gem install bundle -v 1.15.4
+   #- bundle _1.15_ install
    - bundle install
    - bundle exec rubocop --version
    - bundle exec rubocop -D .

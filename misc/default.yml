@@ -24,7 +24,7 @@ platforms:
         - __AVR_ATmega168__
       warnings:
       flags:
-  nano_v3: &nano_p
+  nano_v3: &nano_3
     board: arduino:avr:nano
     package: arduino:avr
     gcc:
@@ -33,7 +33,7 @@ platforms:
         - __AVR_ATmega328__
       warnings:
       flags:
-  nano: *nano_p
+  nano: *nano_3
   uno:
     board: arduino:avr:uno
     package: arduino:avr
@@ -55,7 +55,6 @@ platforms:
         # use the mega form factor
         #- __ATSAM3X8E__
         - __AVR_ATmega2560__
-        #- __AVR_ATmega328__
       warnings:
       flags:
   zero:

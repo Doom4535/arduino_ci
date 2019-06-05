@@ -44,10 +44,10 @@ platforms:
       warnings:
       flags:
   due:
-    #board: arduino:sam:arduino_due_x
-    #package: arduino:sam
-    board: arduino:sam
-    package: arduino:sam:arduino_due_x
+    board: arduino:sam:arduino_due_x
+    package: arduino:sam
+    #board: arduino:sam
+    #package: arduino:sam:arduino_due_x
     gcc:
       features:
       defines:
@@ -56,7 +56,7 @@ platforms:
         # The next closest part would be the AVR_ATmega2560 as both boards
         # use the mega form factor
         #- __ATSAM3X8E__
-        - __AVR_ATmega2560__
+        #- __AVR_ATmega2560__
       warnings:
       flags:
   zero:

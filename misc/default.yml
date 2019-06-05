@@ -44,8 +44,10 @@ platforms:
       warnings:
       flags:
   due:
-    board: arduino:sam:arduino_due_x
-    package: arduino:sam
+    #board: arduino:sam:arduino_due_x
+    #package: arduino:sam
+    board: arduino:sam
+    package: arduino:sam:arduino_due_x
     gcc:
       features:
       defines:
